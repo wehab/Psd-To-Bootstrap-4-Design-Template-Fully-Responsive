@@ -1,0 +1,504 @@
+@font-face {
+	src: url('../fonts/Roboto-Regular.ttf');
+	font-family: RoboR;
+}
+@font-face {
+	src: url('../fonts/Roboto-Medium.ttf');
+	font-family: RoboM;
+}
+@font-face {
+	src: url('../fonts/Roboto-Light.ttf');
+	font-family: RoboL;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(94, 241, 201, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navSection{
+	padding: 20px 0px;
+}
+.navbar{
+	font-family: RoboR;
+}
+.navbar ul li{
+	background-color: transparent;
+	padding-left: 15px;
+}
+.navbar ul li a{
+	color: #000;
+}
+.navbar ul li a:hover{
+	color: #fff !important;
+	background-color: #5EF1C9;
+	border-radius: 10px; 
+}
+.trySection{
+	background-color: #5EF1C9;
+	padding-top: 250px;
+}
+.trySection h1{
+	color: #fff;
+	font-family: RoboR;
+	letter-spacing: 5px;
+}
+.trySection button{
+	margin-top: 45px;
+	margin-bottom: 200px;
+	padding: 20px 50px;
+	border-radius: 10px;
+	background-color: #FF4857;
+	border: none;
+	font-family: RoboR;
+}
+.servicesSection{
+	padding: 80px 0px;
+}
+.lpcc{
+	color: #fff;
+	background-color: #59ECC9;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	padding: 30px;
+	font-size: 40px;
+}
+.servicesSection h4{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-family: RoboM;
+	font-size: 16px;
+}
+.servicesSection p{
+	font-family: RoboR;
+	font-size: 12px;
+}
+.needButton{
+	margin-top: 45px;
+	padding: 20px 50px !important;
+	border-radius: 10px !important;
+	background-color: #FF5756 !important;
+	border: none !important;
+	font-family: RoboR;	
+}
+.theDesign{
+	background-color: #FF6455;
+	padding-top: 80px;
+}
+.theDesign h2{
+	color: #fff;
+	font-family: RoboR;
+	letter-spacing: 3px;
+}
+.theDesign p{
+	color: #fff;
+	font-family: RoboL;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+.responsiveSection{
+	padding: 60px 0px 40px 0px;
+}
+.responsHeading{
+	font-family: RoboR;
+	padding-top: 80px;
+}
+.responsPara{
+	font-family: RoboL;
+	font-size: 12px;
+	padding-top: 30px;
+}
+.ordbtn{
+	margin-top: 20px;
+}
+.theDesignSection{
+	background-color: #58EBCA;
+	padding-top: 50px;
+}
+.theDesignHeading{
+	color: #fff;
+	font-family: RoboR;
+	padding-bottom: 20px;
+}
+.theDesignPara{
+	color: #fff;
+	font-size: 12px;
+	padding-bottom: 60px;
+}
+.tabs{
+	color: #232E3D;
+	font-family: RoboM;
+}
+.tabsLi{
+	padding: 0px 12px;
+}
+.tabs:hover{
+	color: #fff;
+}
+.allTab{
+	color: #fff;
+}
+.card{
+	border-style: none !important;
+	margin-top: 20px;
+}
+.cardbg{
+	background-color: #232E3D;
+	height: 200px;
+}
+.card-title{
+	font-family: RoboM;
+}
+.card-text{
+	font-family: RoboR;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+.fa-arrow-circle-down{
+	font-size: 35px;
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.numberSection{
+	background-color: #233537;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.numbers{
+	font-family: RoboR;
+	color: #fff;
+	font-size: 45px;
+	padding-top: 25px;
+}
+.numberCaption{
+	color: #4EE1CB;
+	font-family: RoboR;
+	padding-top: 15px;
+}
+.beholdSection{
+	padding-top: 50px;
+}
+.beholdHeading{
+	font-family: RoboR;
+}
+.eum{
+	font-family: RoboL;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.cardBody2{
+	background-color: #63F5C8;
+}
+.card-title2{
+	font-family: RoboM;
+	padding-top: 15px;	
+}
+.graphicDesignPara{
+	font-family: RoboR;
+	color: #fff;
+	font-size: 12px;
+	margin-top: -5px;
+}
+.card-text2{
+	padding-bottom: 0px;
+	font-weight: bold;
+}
+.cards-row{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.minisliderSection{
+	background-color: #FF5256;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.pause-icon{
+	color: #000;
+	font-size: 35px;
+	cursor: pointer;
+}
+.slider-Heading{
+	color: #fff;
+	font-family: RoboR;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+.silder-mini-para{
+	font-family: RoboR;
+	font-size: 12px;
+	color: #fff;
+}
+.slideButtons{
+	color: #fff;
+	font-size: 30px;
+	padding: 20px 10px;
+	cursor: pointer;
+}
+.subscribe-section{
+	background-color: #233537;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sub-heading{
+	font-family: RoboR;
+	color: #fff;
+	padding-top: 15px;
+	word-spacing: 2px;
+}
+.sub-btn{
+	background-color: transparent;
+	border-style: none;
+	border: 1px solid #4EE1CB;
+	color: #fff;
+	font-family: RoboR;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+.sub-btn:hover{
+	background-color: #5EF1C9;
+	cursor: pointer;
+	border-radius: 15px;
+	transition: 1s ease-in;
+}
+.responsPara2{
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+.blackDiv{
+	background-color: #232E3D;
+	height: 260px;
+}
+.responsHeading2{
+	font-family: RoboR;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #fff;
+}
+.responsPara3{
+	margin-top: -15px;
+}
+.modernSection{
+	background-color: #56E9CA;
+	margin-top: 25px;
+	padding-bottom: 150px;
+}
+.resposeSubHeading{
+	font-size: 18px;
+}
+.responsPara3{
+	color: #fff;
+}
+.mobimg{
+	position: absolute;
+	top: 80px;
+}
+.responsHeading3{
+	margin-top: 130px;
+}
+.clients_section{
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+.clients_heading{
+	font-family: RoboR;
+}
+.theDesignPara2{
+	color: #000;
+	padding-top: 15px;
+	font-family: RoboL;
+}
+.greendiv{
+	background-color: #55E7CA;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+.anyaheading{
+	color: #fff;
+	font-family: RoboR;
+	font-size: 25px;
+	padding-top: 20px;
+}
+.anyaPara{
+	font-size: 14px;
+	font-family: RoboR;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.anyaPara2{
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 18px;
+	font-family: RoboR;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.contact_section{
+	background-color: #FF5156;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact_heading{
+	color: #fff;
+	font-family: RoboR;
+	padding-bottom: 15px;
+}
+
+.formPeragraph{
+  font-size: 18px;
+  padding-left: 105px;
+  text-align: left;
+  margin-bottom: -15px;
+}
+form{
+  margin-top: 30px;
+}
+.formInputs{
+  width: 40%;
+  margin: 0px 5px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.formInputs::placeholder{
+  font-family: RoboM;
+  color: #fff;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.area{
+  width: 81%;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  padding-top: 15px;
+}
+.btnSubmit{
+  background-color: #233537;
+  width: 160px;
+  height: 43px;
+  font-family: RoboR;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+}
+.btnSubmit:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+	transition: 0.5s ease-in;
+}
+.btndiv{
+	margin-right: 102px;
+}
+.newpara{
+	color: #000;
+}
+.newheading{
+	color: #000;
+}
+.address_section{
+	background-color: #232E3D;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.address-div{
+	background-color: #5AEDC9;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border-radius: 2px;
+}
+.addressPara{
+	color: #fff;
+	font-family: RoboM;
+	text-align: left;
+	padding-left: 30px;
+}
+.footer_section{
+	background-color: #233537;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.footer_para{
+	font-family: RoboR;
+	color: #fff;
+	font-size: 14px;
+}
+.footer_para span{
+	color: #55E7CA;
+}
+
+
+
+/* MEDIA QUERIES */
+@media(max-width: 991px){
+	nav{
+		text-align: center;
+	}
+	nav ul{
+		margin-top: 30px;
+	}
+	nav ul li{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.active{
+		padding-left: 0px;
+	}
+	.addressPara{
+		padding-left: 0px;
+		text-align: center;
+	}
+}
+@media(max-width: 767px){
+	.responsiveSection{
+		text-align: center;
+	}
+	.mobimg{
+		position: initial;
+	}
+	.responsHeading3{
+		margin-top: 30px;
+	}
+	.modernSection{
+		padding-bottom: 30px; 
+	}
+	.greendiv{
+		margin-bottom: 20px;
+	}
+	.btnSubmit{
+		float: none;
+	}
+	.btndiv{
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 567px){
+	.formInputs{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
